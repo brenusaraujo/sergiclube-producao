@@ -3,7 +3,7 @@ import { ImWhatsapp } from "react-icons/im"
 
 const Contact = () => {
   const [nome, setNome] = useState();
-  const telefoneBoleto = 5571999011086;
+  const telefoneBoleto = 5579999042338;
   const handleWhatsAppButtonClick = () => {
     const message = `Olá, tudo bem? Meu nome é ${nome} e eu gostaria de uma cotação para meu veículo.`;
 

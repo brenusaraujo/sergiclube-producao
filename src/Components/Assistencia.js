@@ -4,10 +4,8 @@ const Assistencia = () => {
   return (
     <div className="work-section-wrapper">
       <h1>
-        Com nossa assistência 24 horas, você nunca estará sozinho na estrada!
+        Estamos do seu lado 24 horas por dia!
       </h1>
-      <p>Conte conosco em cada curva da sua jornada.</p>
-
     </div>
   );
 };

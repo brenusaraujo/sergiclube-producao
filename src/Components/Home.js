@@ -16,6 +16,7 @@ const Home = () => {
   const anoDosCarros = calcularAnoDosCarros(intervaloAnos);
   const telefone = 5571992402531;
   const telefoneBoleto = 5571999011086;
+  const telefoneNovo = 5579999042338;
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [telefoneUser, setTelefoneUser] = useState('');
@@ -111,19 +112,16 @@ const Home = () => {
       <div className="home-banner-container">
         <div className="home-titulo-section">
           <h1 className="primary-heading">
-            O seu clube de benefícios!
+            Juntos, protegemos o que importa: o seu veículo e sua tranquilidade!
           </h1>
           <p>
             *Não somos seguradora
-          </p>
-          <p className="primary-text">
-            OS BENEFÍCIOS DE PROTEGER VOCÊ E O SEU VEÍCULO NÃO CUSTAM CARO, IMPREVISTOS SIM!
           </p>
           <button onClick={handleWhatsAppButtonClickWithoutMessage} className="whatsapp-button" target="blank">
             <ImWhatsapp /> Segunda via do boleto
           </button>
         </div>
-        <div className="home-form-section">
+        {/* <div className="home-form-section">
           <h3 className="home-form-heading">Faça sua simulação agora mesmo!</h3>
           <br />
           <form action="post">
@@ -163,7 +161,7 @@ const Home = () => {
               Enviar <FiArrowRight />
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
       <div className="modal-container">
         <button onClick={toggleModal} className="floating-button">

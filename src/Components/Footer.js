@@ -3,13 +3,13 @@ import Logo from "../Assets/Logo.png";
 import { BsWhatsapp, BsInstagram, BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
-  const telefone = 5571992402531;
+  const telefone = 5579999042338;
   const message = `Olá, tudo bem? Gostaria de uma cotação para meu veículo.`;
 
   const URL_WHATSAPP_SEM_MENSAGEM = `https://api.whatsapp.com/send?phone=${telefone}&text=${encodeURIComponent(message)}`;
-  const URL_INSTAGRAM = "https://www.instagram.com/edclube.mais/";
+  const URL_INSTAGRAM = "https://www.instagram.com/sergiclube.mais/";
   const URL_FACEBOOK = "https://www.facebook.com/edclube/";
-  const URL_GOOGLE_MAPS = "https://www.google.com.br/maps/place/Condomínio+Edifício+Catabas+Empresarial/@-12.9812211,-38.4564026,15z/data=!4m6!3m5!1s0x7161b1a59ca0445:0x6c83632e7c80bd6a!8m2!3d-12.9812211!4d-38.4564026!16s%2Fg%2F1vf9ckns?entry=ttu";
+  const URL_GOOGLE_MAPS = "https://maps.app.goo.gl/pPNMcgAmPLVt9Pau6";
 
 
   return (
@@ -32,10 +32,11 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <a target="blank" href={URL_GOOGLE_MAPS} className="footer-option">Av. Tancredo Neves, N° 1222, Sala 1004, Edifício Catabas Tower, Caminho das Árvores, Salvador, Bahia, 41820-020.</a>
-          <a target="blank" href="tel:+5571992402531" className="footer-option">(71) 99240-2531 (cotação)</a>
-          <a target="blank" href="tel:+557134329999" className="footer-option">(71) 3432-9999 (central telefônica)</a>
-          <a target="blank" href="tel:+5571999011086" className="footer-option">(71) 99901-1086 (WhatsApp central)</a>
+          <a target="blank" href={URL_GOOGLE_MAPS} className="footer-option">Avenida Pedro Calazans, 947 - Centro, Aracaju - SE, 49010-490.</a>
+          <a target="blank" href="tel:+5579996434475" className="footer-option">(79) 99643-4475 (Recepção)</a>
+          <a target="blank" href="tel:+5579999042338" className="footer-option">(79) 99904-2338 (Call Center)</a>
+          <a target="blank" href="tel:+5579999326067" className="footer-option">(79) 99932-6067 (Setor de eventos)</a>
+          <a target="blank" href="tel:+5530272416" className="footer-option">3027-2416 (Fixo)</a>
         </div>
       </div>
     </div>

@@ -54,7 +54,7 @@ const Work = () => {
   return (
     <div className="consultants-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Nossos parceiros</p>
+        <p className="primary-subheading">Clube de vantagens</p>
         <h1 className="primary-heading">Confira quem são nosso parceiros</h1>
       </div>
       <div className="work-section-bottom">
