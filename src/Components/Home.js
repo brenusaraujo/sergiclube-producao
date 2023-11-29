@@ -2,7 +2,7 @@ import React from "react";
 import { FiArrowRight } from "react-icons/fi";
 import { ImWhatsapp } from "react-icons/im"
 import { useState } from "react";
-import BotaoTelefone from "../Assets/botaoassistencia.jpg"
+import BotaoTelefone from "../Assets/botaoassistencia.png"
 
 function calcularAnoDosCarros(intervaloAnos) {
   const anoAtual = new Date().getFullYear();
@@ -111,9 +111,6 @@ const Home = () => {
     <div className="home-container">
       <div className="home-banner-container">
         <div className="home-titulo-section">
-          <h1 className="primary-heading">
-            Juntos, protegemos o que importa: o seu veículo e sua tranquilidade!
-          </h1>
           <p>
             *Não somos seguradora
           </p>
@@ -121,6 +118,10 @@ const Home = () => {
             <ImWhatsapp /> Segunda via do boleto
           </button>
         </div>
+        <h1 className="primary-heading">
+          Juntos, protegemos o que importa: o seu veículo e sua tranquilidade!
+        </h1>
+
         {/* <div className="home-form-section">
           <h3 className="home-form-heading">Faça sua simulação agora mesmo!</h3>
           <br />

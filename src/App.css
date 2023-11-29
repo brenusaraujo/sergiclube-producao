@@ -74,12 +74,13 @@ nav {
   display: flex;
   padding: 4rem;
   margin: auto;
-  background-color: #9fd5ff;
+  background-color: #343b6b;
   background-image: url("./Assets/background-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 32rem;
+  align-items: flex-end;
 }
 #minha-div {
   position: relative; /* Define posição relativa no elemento pai */
@@ -182,7 +183,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start
 }
 .primary-heading {
   font-size: clamp(1rem, 3vw, 5rem);
@@ -191,7 +192,7 @@ nav {
   max-width: 600px;
   bottom: 0;
   right: 0;
-  text-shadow: 1px 1px 1px black
+  text-shadow: 1px 1px 1px black;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
@@ -276,7 +277,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #007e99;
+  color: #fdba2e;
   font-size: 2rem;
   margin: auto;
   text-align: center;
@@ -289,6 +290,7 @@ nav {
 
 .facility-wrapper {
   margin-bottom: 1rem;
+  background-color: #343b6b;
 }
 
 .about-section-text-container > :first-child {
@@ -314,7 +316,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(11, 123, 151, 0.5);
+  background-color: #343b6b;
   margin-bottom: 1rem;
 }
 .contact-form-container {
@@ -375,7 +377,7 @@ nav {
 }
 .testimonial-section-bottom {
   margin-top: 2rem;
-  background-color: white;
+  background-color: #343b6b;
   padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
@@ -483,7 +485,7 @@ nav {
   margin-top: 1.5rem;
 }
 .consultants-section-wrapper {
-  background-color: #ffde70;
+  background-color: #343b6b;
 }
 .work-section-top p {
   text-align: center;
@@ -523,6 +525,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .work-section-info p {
   flex: 1;
   display: flex;
