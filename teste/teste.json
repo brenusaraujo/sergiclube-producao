@@ -1,0 +1,17 @@
+{
+  "event_source": "web",
+  "event_source_id": "CCB6BPRC77U85D4J5PN0",
+  "test_event_code": "TEST48531",
+  "data": {
+    "event": "CompleteRegistration",
+    "event_time": 1701198426,
+    "event_id": "71331060872419",
+    "user": {
+      "external_id": "3562c723395c5dac12eef316d3a4074a0c6ee8d0b74c84c986233eeea8b31678",
+      "phone": "564a88f8aafbda38283de66dfe8b34db8489e147ce894ec0afe53be288344e2c",
+      "email": "f8218e976fe0034c8124742758da386ba8f24091da23855c1bdf5bef9bb74da6",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+      "locale": "es_PE"
+    }
+  }
+}
